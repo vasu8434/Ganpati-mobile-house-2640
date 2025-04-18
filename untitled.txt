@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ganpati Mobile House</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+    }
+    header {
+      background: #2e3192;
+      color: white;
+      padding: 20px;
+      position: relative;
+    }
+    .ceo {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-size: 14px;
+      color: white;
+    }
+    .title {
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .tagline {
+      text-align: center;
+      font-size: 16px;
+      margin-top: 5px;
+    }
+    nav {
+      background: #444;
+      color: white;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav a {
+      padding: 15px 20px;
+      color: white;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: #666;
+    }
+    section {
+      padding: 20px;
+      background: white;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    h2 {
+      color: #2e3192;
+    }
+    .footer {
+      background: #2e3192;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="ceo">CEO: Amit Sharma</div>
+    <div class="title">Ganpati Mobile House</div>
+    <div class="tagline">Everything Digital, All in One Place.</div>
+  </header>
+
+  <nav>
+    <a href="#mobiles">Mobiles</a>
+    <a href="#accessories">Accessories</a>
+    <a href="#laptops">Laptops</a>
+    <a href="#electronics">Electronics</a>
+    <a href="#computers">Computers</a>
+  </nav>
+
+  <section id="mobiles">
+    <h2>Mobiles</h2>
+    <p>Updated prices of Oppo, Realme, Vivo, Poco, Tecno, etc.</p>
+    <!-- Add product images and prices here -->
+  </section>
+
+  <section id="accessories">
+    <h2>Accessories</h2>
+    <p>Brand-wise prices for headphones, chargers, power banks, etc.</p>
+  </section>
+
+  <section id="laptops">
+    <h2>Laptops</h2>
+    <p>Latest laptops with updated prices and models.</p>
+  </section>
+
+  <section id="electronics">
+    <h2>Electronics</h2>
+    <p>AC, Fridge, Cooler, Microwave, Washing Machines – all updated prices.</p>
+  </section>
+
+  <section id="computers">
+    <h2>Computers</h2>
+    <p>Desktops, CPUs, monitors, and other computer items listed here.</p>
+  </section>
+
+  <div class="footer">
+    Ganpati Mobile House - Lunkaransar, Bikaner District, Rajasthan
+  </div>
+</body>
+</html>
